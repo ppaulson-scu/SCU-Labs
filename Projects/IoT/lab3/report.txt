@@ -1,0 +1,11 @@
+3-1
+	auto br0
+		initialize an interface called br0
+	iface br0 inet dhcp
+		Define br0 as a TCP/IP interface configured to use DHCP
+	bridge_ports eth0 wlan0
+		Setup a bridge between port eth0 and port wlan0
+
+3-2
+	In hostapd.conf, change hw_mode=g to hw_mode=a and channel=7 to channel=40
+	23

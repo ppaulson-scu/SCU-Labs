@@ -1,0 +1,3 @@
+1. ps -axu
+2. 4 (looking at the /proc/cpuinfo file)
+3. 72256KB (according to free)

@@ -1,0 +1,8 @@
+* Component: $Lab2/default.group/logic.views/Inverter  Viewpoint: eldonet
+.INCLUDE Inverter_eldonet.spi
+
+
+.OPTION NOASCII
+.OPTION MODWL
+.OPTION ENGNOT
+.OPTION AEX

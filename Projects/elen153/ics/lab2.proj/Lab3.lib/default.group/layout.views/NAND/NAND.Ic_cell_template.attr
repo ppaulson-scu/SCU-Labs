@@ -1,0 +1,25 @@
+A 5 u Ic_cell_template 5909084f8e8b.03.81.d2.10.56.00.23.7d 5 4 3 0
+V v 1 1 590907de0356.03.81.d2.10.56.00.24.ce
+F f 1 "NAND.iccel_1"
+V v 2 1 59090a130fb2.03.81.d2.10.56.00.3d.58
+F f 2 "NAND.iccel_2"
+V v 3 1 59090a5559c1.03.81.d2.10.56.00.3d.58
+F f 3 "NAND.iccel_3"
+V v 4 1 59090e757a13.03.81.d2.10.56.00.3d.58
+F f 4 "NAND.iccel_4"
+V v 5 1 59090feaeb6f.03.81.d2.10.56.00.58.e2
+F f 5 "NAND.iccel_5"
+O 5
+R csduv 1 "/DCNFS/applications/mentor/2008.1/adk3_1/technology/ic/process/tsmc035" 1 Ic_persist_process 42c0762f0019.03.93.22.46.d8.00.0e.37 43349f1b0e3c.03.93.22.46.d8.05.02.fa
+R csduv 2 "$Lab3/default.group/layout_cfg.views/NAND/SDL" 1 Eddm_design_viewpoint 59090db99ab3.03.81.d2.10.56.01.3d.58 59090db99ab3.03.81.d2.10.56.00.3d.58
+O 4
+R csduv 1 "/DCNFS/applications/mentor/2008.1/adk3_1/technology/ic/process/tsmc035" 1 Ic_persist_process 42c0762f0019.03.93.22.46.d8.00.0e.37 43349f1b0e3c.03.93.22.46.d8.05.02.fa
+R csduv 2 "$Lab3/default.group/layout_cfg.views/NAND/SDL" 1 Eddm_design_viewpoint 59090db99ab3.03.81.d2.10.56.01.3d.58 59090db99ab3.03.81.d2.10.56.00.3d.58
+O 3
+R csduv 1 "/DCNFS/applications/mentor/2008.1/adk3_1/technology/ic/process/tsmc035" 1 Ic_persist_process 42c0762f0019.03.93.22.46.d8.00.0e.37 43349f1b0e3c.03.93.22.46.d8.05.02.fa
+R csduv 2 "$Lab3/default.group/layout_cfg.views/NAND/SDL" 1 Eddm_design_viewpoint 590908714bb6.03.81.d2.10.56.01.3d.58 590908714bb6.03.81.d2.10.56.00.3d.58
+O 2
+R csduv 1 "/DCNFS/applications/mentor/2008.1/adk3_1/technology/ic/process/tsmc035" 1 Ic_persist_process 42c0762f0019.03.93.22.46.d8.00.0e.37 43349f1b0e3c.03.93.22.46.d8.05.02.fa
+R csduv 2 "$Lab3/default.group/layout_cfg.views/NAND/SDL" 1 Eddm_design_viewpoint 590908714bb6.03.81.d2.10.56.01.3d.58 590908714bb6.03.81.d2.10.56.00.3d.58
+O 1
+R csduv 1 "/DCNFS/applications/mentor/2008.1/adk3_1/technology/ic/process/tsmc035" 1 Ic_persist_process 42c0762f0019.03.93.22.46.d8.00.0e.37 43349f1b0e3c.03.93.22.46.d8.05.02.fa

@@ -1,0 +1,9 @@
+A 5 u mgc_symbol 58ffc39aaa6c.03.81.d2.10.54.00.30.be 2 2 1 0
+V v 1 1 58ffc39aaa6c.03.81.d2.10.54.01.30.be
+F f 1 "NAND.smbl_1"
+V v 2 1 58ffc3af3b0b.03.81.d2.10.54.00.30.be
+F f 2 "NAND.smbl_2"
+O 2
+R csduv 0 "$Lab3/default.group/logic.views/NAND/part" 2 Eddm_part 58ffc39ab85e.03.81.d2.10.54.00.30.be 58ffc2af36a8.03.81.d2.10.54.00.30.be
+O 1
+R csduv 0 "$Lab3/default.group/logic.views/NAND/part" 2 Eddm_part 58ffc39ab85e.03.81.d2.10.54.00.30.be 58ffc2af36a8.03.81.d2.10.54.00.30.be

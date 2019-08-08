@@ -1,0 +1,7 @@
+*drcRulesFile: /opt/mentor-2008.1/adk3_1/technology/ic/process/tsmc035.rules
+*drcRunDir: /DCNFS/users/student/ppaulson/elen153/ics/4bitAdder.proj/UpdatedFiles.lib/default.group/layout.views/FullAdder/FullAdder.cal
+*drcLayoutPaths: FullAdder.calibre.gds
+*drcLayoutPrimary: FullAdder
+*drcLayoutGetFromViewer: 1
+*drcResultsFile: FullAdder.drc.results
+*drcSummaryFile: FullAdder.drc.summary

@@ -1,0 +1,14 @@
+A 5 u Eddm_part 58ffc2af36a8.03.81.d2.10.54.00.30.be 2 2 2 0
+V v 1 1 58ffc2af36a8.03.81.d2.10.54.01.30.be
+F f 1 "part.part_1"
+V v 2 1 58ffc39ab85e.03.81.d2.10.54.00.30.be
+F f 2 "part.part_2"
+O 2
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$Lab3/default.group/logic.views/NAND/schematic" 1 mgc_schematic 58ffbf52eb28.03.81.d2.10.54.01.30.be 58ffbf52eb28.03.81.d2.10.54.00.30.be
+P "eddm__refer_state" "eddm__refer_floating"
+R csduv 1 "$Lab3/default.group/logic.views/NAND/NAND" 1 mgc_symbol 58ffc39aaa6c.03.81.d2.10.54.01.30.be 58ffc39aaa6c.03.81.d2.10.54.00.30.be
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$Lab3/default.group/logic.views/NAND/schematic" 1 mgc_schematic 58ffbf52eb28.03.81.d2.10.54.01.30.be 58ffbf52eb28.03.81.d2.10.54.00.30.be
+P "eddm__refer_state" "eddm__refer_floating"

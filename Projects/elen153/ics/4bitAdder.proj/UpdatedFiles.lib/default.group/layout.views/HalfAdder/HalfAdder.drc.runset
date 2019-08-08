@@ -1,0 +1,7 @@
+*drcRulesFile: /opt/mentor-2008.1/adk3_1/technology/ic/process/tsmc035.rules
+*drcRunDir: /DCNFS/users/student/ppaulson/elen153/ics/4bitAdder.proj/UpdatedFiles.lib/default.group/layout.views/HalfAdder/HalfAdder.cal
+*drcLayoutPaths: HalfAdder.calibre.gds
+*drcLayoutPrimary: HalfAdder
+*drcLayoutGetFromViewer: 1
+*drcResultsFile: HalfAdder.drc.results
+*drcSummaryFile: HalfAdder.drc.summary

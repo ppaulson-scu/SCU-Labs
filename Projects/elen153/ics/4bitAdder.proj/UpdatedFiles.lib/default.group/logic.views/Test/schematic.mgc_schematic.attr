@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 591b74bfe3c2.03.81.d2.10.56.00.59.3c 4 2 1 0
+V v 2 1 591b778e1a69.03.81.d2.10.56.00.59.3c
+F o 0 ""
+V v 3 1 591b7a7d50a1.03.81.d2.10.56.00.59.3c
+F o 0 ""
+V v 4 1 591b7b8ecdf4.03.81.d2.10.56.00.59.3c
+F o 0 ""
+O 4
+R cspuv 0 "$UpdatedFiles/default.group/logic.views/Test/schematic/sheet1" 3 mgc_sheet 591b7b8ec8e4.03.81.d2.10.56.00.59.3c 591b74c00051.03.81.d2.10.56.00.59.3c
+O 3
+R cspuv 0 "$UpdatedFiles/default.group/logic.views/Test/schematic/sheet1" 2 mgc_sheet 591b7a7d4a44.03.81.d2.10.56.00.59.3c 591b74c00051.03.81.d2.10.56.00.59.3c
+O 2
+R cspuv 0 "$UpdatedFiles/default.group/logic.views/Test/schematic/sheet1" 1 mgc_sheet 591b74c00052.03.81.d2.10.56.00.59.3c 591b74c00051.03.81.d2.10.56.00.59.3c

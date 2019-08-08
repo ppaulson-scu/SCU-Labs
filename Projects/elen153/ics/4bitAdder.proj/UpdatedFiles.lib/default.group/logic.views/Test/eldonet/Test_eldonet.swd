@@ -1,0 +1,26 @@
+//###########################################################
+//# ELDO v6.10_3.1 Production(64 bits) - Saved Window File
+//# Released Fri Jun 13 08:13:19 GMT 2008
+//#
+//# Note: This is an auto-generated file.
+//#
+//# Any edits that you make may cause the restore of
+//# this window to fail - EDIT AT YOUR OWN RISK
+//###########################################################
+
+
+// ===== Open new window =====
+OPEn WIndow -POSition 0 0 -MAXimized
+
+// ===== Create row #1 =====
+ADD WAveform  <Test_eldonet/TRAN>V(S0) 
+ADD WAveform -Row 1 <Test_eldonet/TRAN>V(S1) 
+ADD WAveform -Row 1 <Test_eldonet/TRAN>V(S2) 
+ADD WAveform -Row 1 <Test_eldonet/TRAN>V(COUT) 
+ADD WAveform -Row 1 <Test_eldonet/TRAN>V(S3) 
+
+// ===== Set axis zero levels  =====
+SET AXis Properties -Axis Y1 -Row 1 -zerolevel on
+
+// ===== Format rows =====
+SET ROw Height -All -MAX

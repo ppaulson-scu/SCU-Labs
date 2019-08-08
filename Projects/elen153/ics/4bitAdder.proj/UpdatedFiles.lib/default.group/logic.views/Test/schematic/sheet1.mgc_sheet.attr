@@ -1,0 +1,51 @@
+A 5 u mgc_sheet 591b74c00051.03.81.d2.10.56.00.59.3c 3 2 13 0
+V v 1 2 591b74c00052.03.81.d2.10.56.00.59.3c
+F f 1 "sheet1.ssht_1"
+F f 1 "sheet1.sgfx_1"
+V v 2 2 591b7a7d4a44.03.81.d2.10.56.00.59.3c
+F f 2 "sheet1.ssht_2"
+F f 2 "sheet1.sgfx_2"
+V v 3 2 591b7b8ec8e4.03.81.d2.10.56.00.59.3c
+F f 3 "sheet1.ssht_3"
+F f 3 "sheet1.sgfx_3"
+O 3
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$UpdatedFiles/default.group/logic.views/Test/schematic" 1 mgc_schematic 591b74bfe3c3.03.81.d2.10.56.00.59.3c 591b74bfe3c2.03.81.d2.10.56.00.59.3c
+R csduv 1 "$UpdatedFiles/default.group/logic.views/4BitAdder/part" 2 Eddm_part 591b77b7dc92.03.81.d2.10.56.00.59.3c 591b747c9d9f.03.81.d2.10.56.00.59.3c
+R csduv 2 "$UpdatedFiles/default.group/logic.views/4BitAdder/4BitAdder" 1 mgc_symbol 591b747c98dc.03.81.d2.10.56.00.59.3c 591b747c98db.03.81.d2.10.56.00.59.3c
+R csduv 3 "$MGC_IC_SOURCES_LIB/pattern_v_source/part" 1 Eddm_part 3988b7fd92ab.03.93.22.22.60.00.1c.5b 3988b97c668d.03.93.22.22.60.00.1c.5b
+R csduv 4 "$MGC_IC_SOURCES_LIB/pattern_v_source/pattern_v_source" 1 mgc_symbol 3988b7fd933e.03.93.22.22.60.00.1c.5b 3988b97c66b7.03.93.22.22.60.00.1c.5b
+R csduv 5 "$MGC_IC_GENERIC_LIB/ground/part" 1 Eddm_part 3db4867e4bc8.03.93.22.29.75.00.27.f6 3db4867e4bc7.03.93.22.29.75.00.27.f6
+R csduv 6 "$MGC_IC_GENERIC_LIB/ground/ground" 1 mgc_symbol 3db4867e5447.03.93.22.29.75.00.27.f6 3db4867e5446.03.93.22.29.75.00.27.f6
+R csduv 7 "$MGC_IC_GENERIC_LIB/portout/part" 1 Eddm_part 35785fdc394b.03.86.56.31.87.00.12.30 3890e8888efa.03.86.56.31.70.03.3a.eb
+R csduv 8 "$MGC_IC_GENERIC_LIB/portout/portout" 1 mgc_symbol 357ed6243e32.03.86.56.31.87.00.28.94 3890e8888efa.03.86.56.31.70.02.3a.eb
+R csduv 9 "$MGC_IC_SOURCES_LIB/dc_v_source/part" 1 Eddm_part 3890a89d50f5.03.86.56.31.70.00.34.2e 3890a962031f.03.86.56.31.70.01.34.72
+R csduv 10 "$MGC_IC_SOURCES_LIB/dc_v_source/dc_v_source" 1 mgc_symbol 3890a89d50ce.03.86.56.31.70.00.34.2e 3890a962031f.03.86.56.31.70.02.34.72
+R csduv 11 "$MGC_IC_GENERIC_LIB/vdd/part" 1 Eddm_part 3db48b399318.03.93.22.29.75.00.28.94 3db48b399317.03.93.22.29.75.00.28.94
+R csduv 12 "$MGC_IC_GENERIC_LIB/vdd/vdd" 1 mgc_symbol 3db48b399bae.03.93.22.29.75.00.28.94 3db48b399bac.03.93.22.29.75.00.28.94
+O 2
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$UpdatedFiles/default.group/logic.views/Test/schematic" 1 mgc_schematic 591b74bfe3c3.03.81.d2.10.56.00.59.3c 591b74bfe3c2.03.81.d2.10.56.00.59.3c
+R csduv 1 "$UpdatedFiles/default.group/logic.views/4BitAdder/part" 2 Eddm_part 591b77b7dc92.03.81.d2.10.56.00.59.3c 591b747c9d9f.03.81.d2.10.56.00.59.3c
+R csduv 2 "$UpdatedFiles/default.group/logic.views/4BitAdder/4BitAdder" 1 mgc_symbol 591b747c98dc.03.81.d2.10.56.00.59.3c 591b747c98db.03.81.d2.10.56.00.59.3c
+R csduv 3 "$MGC_IC_SOURCES_LIB/pattern_v_source/part" 1 Eddm_part 3988b7fd92ab.03.93.22.22.60.00.1c.5b 3988b97c668d.03.93.22.22.60.00.1c.5b
+R csduv 4 "$MGC_IC_SOURCES_LIB/pattern_v_source/pattern_v_source" 1 mgc_symbol 3988b7fd933e.03.93.22.22.60.00.1c.5b 3988b97c66b7.03.93.22.22.60.00.1c.5b
+R csduv 5 "$MGC_IC_GENERIC_LIB/ground/part" 1 Eddm_part 3db4867e4bc8.03.93.22.29.75.00.27.f6 3db4867e4bc7.03.93.22.29.75.00.27.f6
+R csduv 6 "$MGC_IC_GENERIC_LIB/ground/ground" 1 mgc_symbol 3db4867e5447.03.93.22.29.75.00.27.f6 3db4867e5446.03.93.22.29.75.00.27.f6
+R csduv 7 "$MGC_IC_GENERIC_LIB/portout/part" 1 Eddm_part 35785fdc394b.03.86.56.31.87.00.12.30 3890e8888efa.03.86.56.31.70.03.3a.eb
+R csduv 8 "$MGC_IC_GENERIC_LIB/portout/portout" 1 mgc_symbol 357ed6243e32.03.86.56.31.87.00.28.94 3890e8888efa.03.86.56.31.70.02.3a.eb
+R csduv 9 "$MGC_IC_SOURCES_LIB/dc_v_source/part" 1 Eddm_part 3890a89d50f5.03.86.56.31.70.00.34.2e 3890a962031f.03.86.56.31.70.01.34.72
+R csduv 10 "$MGC_IC_SOURCES_LIB/dc_v_source/dc_v_source" 1 mgc_symbol 3890a89d50ce.03.86.56.31.70.00.34.2e 3890a962031f.03.86.56.31.70.02.34.72
+R csduv 11 "$MGC_IC_GENERIC_LIB/vdd/part" 1 Eddm_part 3db48b399318.03.93.22.29.75.00.28.94 3db48b399317.03.93.22.29.75.00.28.94
+R csduv 12 "$MGC_IC_GENERIC_LIB/vdd/vdd" 1 mgc_symbol 3db48b399bae.03.93.22.29.75.00.28.94 3db48b399bac.03.93.22.29.75.00.28.94
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$UpdatedFiles/default.group/logic.views/Test/schematic" 1 mgc_schematic 591b74bfe3c3.03.81.d2.10.56.00.59.3c 591b74bfe3c2.03.81.d2.10.56.00.59.3c
+R csduv 1 "$UpdatedFiles/default.group/logic.views/4BitAdder/part" 1 Eddm_part 591b747c9d9f.03.81.d2.10.56.01.59.3c 591b747c9d9f.03.81.d2.10.56.00.59.3c
+R csduv 2 "$UpdatedFiles/default.group/logic.views/4BitAdder/4BitAdder" 1 mgc_symbol 591b747c98dc.03.81.d2.10.56.00.59.3c 591b747c98db.03.81.d2.10.56.00.59.3c
+R csduv 3 "$MGC_IC_SOURCES_LIB/pattern_v_source/part" 1 Eddm_part 3988b7fd92ab.03.93.22.22.60.00.1c.5b 3988b97c668d.03.93.22.22.60.00.1c.5b
+R csduv 4 "$MGC_IC_SOURCES_LIB/pattern_v_source/pattern_v_source" 1 mgc_symbol 3988b7fd933e.03.93.22.22.60.00.1c.5b 3988b97c66b7.03.93.22.22.60.00.1c.5b
+R csduv 5 "$MGC_IC_GENERIC_LIB/ground/part" 1 Eddm_part 3db4867e4bc8.03.93.22.29.75.00.27.f6 3db4867e4bc7.03.93.22.29.75.00.27.f6
+R csduv 6 "$MGC_IC_GENERIC_LIB/ground/ground" 1 mgc_symbol 3db4867e5447.03.93.22.29.75.00.27.f6 3db4867e5446.03.93.22.29.75.00.27.f6
+R csduv 7 "$MGC_IC_GENERIC_LIB/portout/part" 1 Eddm_part 35785fdc394b.03.86.56.31.87.00.12.30 3890e8888efa.03.86.56.31.70.03.3a.eb
+R csduv 8 "$MGC_IC_GENERIC_LIB/portout/portout" 1 mgc_symbol 357ed6243e32.03.86.56.31.87.00.28.94 3890e8888efa.03.86.56.31.70.02.3a.eb

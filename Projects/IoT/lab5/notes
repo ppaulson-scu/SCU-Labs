@@ -1,0 +1,6 @@
+How to build
+
+new Make Target
+	right click->new
+	Only change target name
+		folder.subfolder-platform download run

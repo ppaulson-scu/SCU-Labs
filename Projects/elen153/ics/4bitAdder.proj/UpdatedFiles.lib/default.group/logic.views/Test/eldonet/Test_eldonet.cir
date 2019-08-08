@@ -1,0 +1,11 @@
+* Component: $UpdatedFiles/default.group/logic.views/Test  Viewpoint: eldonet
+.INCLUDE Test_eldonet.spi
+.LIB $MGC_DESIGN_KIT/technology/ic/models/tsmc035.mod
+.PLOT TRAN  V(S0)  V(S1)  V(S2)  V(COUT)  V(S3) 
+
+
+.OPTION NOASCII
+.OPTION MODWL
+.OPTION ENGNOT
+.OPTION AEX
+.TRAN  0 600N 0 

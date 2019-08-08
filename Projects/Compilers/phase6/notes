@@ -1,0 +1,17 @@
+DUE NEXT FRIDAY
+Label class
+Register class
+	also modify Expression class
+register functions
+	getreg()
+	assign()
+	assigntemp()
+	load()
+Code generation
+	start with expressions
+		add/sub/mul
+		div/rem
+		comp
+	return
+	while/if
+		Expression::test()

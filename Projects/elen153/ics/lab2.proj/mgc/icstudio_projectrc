@@ -1,0 +1,26 @@
+[CreationData]
+Created=Tue Apr 18 14:31:53 2017
+MGC_HOME=/opt/mentor-2008.1/linux/ic_flow/2008.1_linux_x86_64/icflow_home
+ProjectHardLocation=/DCNFS/users/student/ppaulson/elen153/ics/lab2.proj
+ProjectSoftLocation=/DCNFS/users/student/ppaulson/elen153/ics/lab2.proj
+User=ppaulson
+Version=v2008.1_1.1  Wed Apr 23 14:24:00 PDT 2008
+
+[PROJECT]
+AmplePath=$AMPLE_PATH:$MGC_DESIGN_KIT/userware
+AngleMode=forty_five
+ConfirmSyncLocmapStdLibs=ask
+DrcFile=/DCNFS/applications/mentor/2008.1/adk3_1/technology/ic/process/tsmc035.rules
+EdifMgcHome=\0
+LvsFile=/DCNFS/applications/mentor/2008.1/adk3_1/technology/ic/process/tsmc035.calibre.rules
+PexFile=/DCNFS/applications/mentor/2008.1/adk3_1/technology/ic/process/tsmc035.calibre.rules
+ProcessFile=/DCNFS/applications/mentor/2008.1/adk3_1/technology/ic/process/tsmc035
+SdlFile=/DCNFS/applications/mentor/2008.1/adk3_1/technology/ic/process/tsmc035.accusim.rules
+VhdlAmsCompileOpts=
+VhdlCompileOpts=
+VlogAmsCompileOpts=
+VlogCompileOpts=\0
+
+[VERSION]
+appVer=v2008.1_1.1  Wed Apr 23 14:24:00 PDT 2008
+

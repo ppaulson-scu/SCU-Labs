@@ -1,0 +1,5 @@
+A 5 u mgc_symbol 591b747c98db.03.81.d2.10.56.00.59.3c 1 2 1 0
+V v 1 1 591b747c98dc.03.81.d2.10.56.00.59.3c
+F f 1 "4BitAdder.smbl_1"
+O 1
+R csduv 0 "$UpdatedFiles/default.group/logic.views/4BitAdder/part" 1 Eddm_part 591b747c9d9f.03.81.d2.10.56.01.59.3c 591b747c9d9f.03.81.d2.10.56.00.59.3c

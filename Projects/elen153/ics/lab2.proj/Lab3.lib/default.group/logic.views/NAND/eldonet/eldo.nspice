@@ -1,0 +1,16 @@
+* ELDO netlist generated with ICnet by 'ppaulson' on Tue Apr 25 2017 at 15:24:02
+
+*
+* Globals.
+*
+.global vdd ground
+
+*
+* MAIN CELL: Component pathname : $Lab3/default.group/logic.views/NAND
+*
+        m1 n$213 a ground ground N L=0.35u W=1.4u M=1
+        m3 out a vdd vdd P L=0.35u W=1.4u M=1
+        m2 out b n$213 ground N L=0.35u W=1.4u M=1
+        m4 out b vdd vdd P L=0.35u W=1.4u M=1
+*
+.end

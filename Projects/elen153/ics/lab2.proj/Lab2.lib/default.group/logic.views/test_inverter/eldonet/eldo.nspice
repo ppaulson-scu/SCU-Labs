@@ -1,0 +1,24 @@
+* ELDO netlist generated with ICnet by 'ppaulson' on Tue Apr 18 2017 at 15:18:57
+
+*
+* Globals.
+*
+.global GROUND VDD
+
+*
+* Component pathname : $Lab2/default.group/logic.views/Inverter
+*
+.subckt INVERTER  OUT IN
+
+        M2 OUT IN GROUND GROUND NCH L=0.35u W=1.4u M=1
+        M1 OUT IN VDD VDD PCH L=0.35u W=1.4u M=1
+.ends INVERTER
+
+*
+* MAIN CELL: Component pathname : $Lab2/default.group/logic.views/test_inverter
+*
+        VIN INPUT GROUND DC 1V
+        V1 VDD GROUND DC 3.3V
+        X_INVERTER1 OUTPUT INPUT INVERTER
+*
+.end

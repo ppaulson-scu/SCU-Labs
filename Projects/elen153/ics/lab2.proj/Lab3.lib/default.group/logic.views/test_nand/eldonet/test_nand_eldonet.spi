@@ -1,0 +1,34 @@
+*
+* .CONNECT statements
+*
+.CONNECT GROUND 0
+
+
+* ELDO netlist generated with ICnet by 'ppaulson' on Tue Apr 25 2017 at 15:16:13
+
+*
+* Globals.
+*
+.global VDD GROUND
+
+*
+* Component pathname : $Lab3/default.group/logic.views/NAND
+*
+.subckt NAND  OUT A B
+
+        M1 N$213 A GROUND GROUND N L=0.35u W=1.4u M=1
+        M3 OUT A VDD VDD P L=0.35u W=1.4u M=1
+        M2 OUT B N$213 GROUND N L=0.35u W=1.4u M=1
+        M4 OUT B VDD VDD P L=0.35u W=1.4u M=1
+.ends NAND
+
+*
+* MAIN CELL: Component pathname : $Lab3/default.group/logic.views/test_nand
+*
+        C1 OUT GROUND 2P
+        V3 A GROUND PULSE ( 0V 3.3V 90nS 10nS 10nS 190nS 300nS )
+        V2 B GROUND PULSE ( 0V 3.3V 190ns 10nS 10nS 290nS 500nS )
+        V1 VDD GROUND DC 3.3V
+        X_NAND1 OUT B A NAND
+*
+.end

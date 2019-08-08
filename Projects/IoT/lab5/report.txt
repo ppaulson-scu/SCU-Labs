@@ -1,0 +1,5 @@
+5-1
+	The thread can sleep for more time, since the OS might not immediately switch context back to that thread (or if the system is event-driven, the OS has to complete its current task before switching back).
+
+5-2
+	The shields LEDs are probably directly connected to the GPIO pins, so changing them to low would disable the transistor, making an open circuit and turning the pins off. The onboard LEDs are probably open collector circuits, with a pullup.

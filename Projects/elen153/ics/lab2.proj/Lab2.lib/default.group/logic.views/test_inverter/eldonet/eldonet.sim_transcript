@@ -1,0 +1,102 @@
+
+Running eldo on linux60808
+
+with Eldo libraries :
+/opt/mentor-2008.1/linux/ams/aol/lib/libeldoudm_64.so
+/opt/mentor-2008.1/linux/ams/aol/lib/libeldomos1_64.so
+/opt/mentor-2008.1/linux/ams/aol/lib/libeldoekv_64.so
+/opt/mentor-2008.1/linux/ams/aol/lib/libeldomosp9_64.so
+/opt/mentor-2008.1/linux/ams/aol/lib/libeldocsem_64.so
+/opt/mentor-2008.1/linux/ams/aol/lib/libeldomos2_64.so
+/opt/mentor-2008.1/linux/ams/aol/lib/libeldomos3_64.so
+/opt/mentor-2008.1/linux/ams/aol/lib/libeldobip_64.so
+/opt/mentor-2008.1/linux/ams/aol/lib/libeldodio_64.so
+/opt/mentor-2008.1/linux/ams/aol/lib/libeldojfet_64.so
+/opt/mentor-2008.1/linux/ams/aol/lib/libeldosoi_64.so
+/opt/mentor-2008.1/linux/ams/aol/lib/libeldomos4_64.so
+/opt/mentor-2008.1/linux/ams/aol/lib/libeldoasitft_64.so
+/opt/mentor-2008.1/linux/ams/aol/lib/libeldohisim_64.so
+/opt/mentor-2008.1/linux/ams/aol/lib/libeldospmod_64.so
+/opt/mentor-2008.1/linux/ams/aol/lib/libeldopsp_64.so
+/opt/mentor-2008.1/linux/ams/aol/lib/libeldomoto_64.so
+/opt/mentor-2008.1/linux/ams/aol/lib/libeldost_64.so
+/opt/mentor-2008.1/linux/ams/aol/lib/libeldobnr_64.so
+/opt/mentor-2008.1/linux/ams/aol/lib/libeldorockw_64.so
+/opt/mentor-2008.1/linux/ams/aol/lib/libeldopubhicum_64.so
+/opt/mentor-2008.1/linux/ams/aol/lib/libeldotftsh_64.so
+/opt/mentor-2008.1/linux/ams/aol/lib/libeldobta_64.so
+/opt/mentor-2008.1/linux/ams/aol/lib/libeldofas_64.so
+/opt/mentor-2008.1/linux/ams/aol/lib/libeldofascm_64.so
+/opt/mentor-2008.1/linux/ams/aol/lib/libeldova_64.so
+/opt/mentor-2008.1/linux/ams/aol/lib/libeldovafnc_64.so
+/opt/mentor-2008.1/linux/ams/aol/lib/libeldosdsim_64.so
+/opt/mentor-2008.1/linux/ams/aol/lib/libeldoudrm_64.so
+/opt/mentor-2008.1/linux/ams/aol/lib/libeldowire_64.so
+
+
+
+              Software under License 
+       Copyright Mentor Graphics Corporation
+
+
+
+
+***** ANALYSIS ....
+
+
+***** 0  error(s). 
+***** 0  warning(s). 
+
+
+
+***** GENERATION ...
+
+
+***** 0  error(s). 
+***** 0  warning(s). 
+
+
+INFORMATION ABOUT COMPILATION...
+
+
+Memory space allocated (bytes): 4662204
+4 elements
+3 nodes 
+2 input signals
+
+Eldo VERSION : ELDO v6.10_3.1 Production(64 bits) Fri Jun 13 08:13:19 GMT 2008
+
+*** DATE: 18-Apr-2017 15:18:59
+
+*** TITLE: * Component: $Lab2/default.group/logic.views/test_inverter  Viewpoint: eldonet
+
+TEMPERATURE : 27.000000 degrees C
+
+Connecting to JWDB server, please wait...
+connected to wdb server : -jwdbhost linux60808.dc.engr.scu.edu -jwdbport 38746
+
+
+--> Partitioning circuit...
+
+
+***>Current simulation completed
+
+
+
+
+SIMULATION INFORMATION 
+memory size allocated in bytes 5403353
+nb of components: 8
+nb of nodes: 7
+nb of MOS or BIP calls: 1336
+Number of steps computed: 0
+
+***>CPU TIME 0s 020ms <***
+
+
+***>GLOBAL CPU TIME 0s 030ms <***
+
+
+***>GLOBAL ELAPSED TIME 2s <***
+
+

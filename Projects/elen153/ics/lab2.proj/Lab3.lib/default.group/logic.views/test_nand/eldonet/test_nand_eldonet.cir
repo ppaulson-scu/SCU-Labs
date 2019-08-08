@@ -1,0 +1,14 @@
+* Component: $Lab3/default.group/logic.views/test_nand  Viewpoint: eldonet
+.INCLUDE test_nand_eldonet.spi
+.LIB $MGC_DESIGN_KIT/technology/ic/models/tsmc035.mod
+.PLOT TRAN  V(B) 
+.PLOT TRAN  V(OUT) 
+.PLOT TRAN  V(A) 
+
+
+.OPTION NOASCII
+.OPTION MODWL
+.OPTION ENGNOT
+.OPTION AEX
+.OPTION LIMPROBE = 10000
+.TRAN  0 690n .1n 1n

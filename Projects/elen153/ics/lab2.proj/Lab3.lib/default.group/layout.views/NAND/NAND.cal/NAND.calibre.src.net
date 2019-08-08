@@ -1,0 +1,18 @@
+* LVS netlist generated with ICnet by 'ppaulson' on Tue May  2 2017 at 16:00:44
+
+*
+* Globals.
+*
+.global VDD ground
+
+*
+* Component pathname : $Lab3/default.group/logic.views/NAND
+*
+.subckt NAND  OUT A B
+
+        M1 N$213 A ground ground N L=0.4u W=3.2u M=1
+        M3 OUT A VDD VDD P L=0.4u W=3.2u M=1
+        M2 OUT B N$213 ground N L=0.4u W=3.2u M=1
+        M4 OUT B VDD VDD P L=0.4u W=3.2u M=1
+.ends NAND
+

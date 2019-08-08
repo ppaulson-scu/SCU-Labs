@@ -1,0 +1,14 @@
+A 5 u mgc_schematic 591b6f27b903.03.81.d2.10.56.00.52.64 3 2 1 0
+V v 1 1 591b6f27b904.03.81.d2.10.56.00.52.64
+F o 0 ""
+V v 2 1 591b7079b13e.03.81.d2.10.56.00.52.64
+F o 0 ""
+V v 3 1 591b71146fac.03.81.d2.10.56.00.52.64
+F o 0 ""
+O 3
+R cspuv 0 "$UpdatedFiles/default.group/logic.views/FullAdder/schematic/sheet1" 2 mgc_sheet 591b71146b83.03.81.d2.10.56.00.52.64 591b6f27cb55.03.81.d2.10.56.00.52.64
+O 2
+R cspuv 0 "$UpdatedFiles/default.group/logic.views/FullAdder/schematic/sheet1" 1 mgc_sheet 591b6f27cb56.03.81.d2.10.56.00.52.64 591b6f27cb55.03.81.d2.10.56.00.52.64
+O 1
+R cspuv 0 "$UpdatedFiles/default.group/logic.views/FullAdder/schematic/sheet1" 1 mgc_sheet 591b6f27cb56.03.81.d2.10.56.00.52.64 591b6f27cb55.03.81.d2.10.56.00.52.64
+P "eddm__refer_state" "eddm__refer_floating"

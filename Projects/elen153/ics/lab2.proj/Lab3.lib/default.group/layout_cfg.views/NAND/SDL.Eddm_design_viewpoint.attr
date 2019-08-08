@@ -1,0 +1,15 @@
+A 5 u Eddm_design_viewpoint 59090db99ab3.03.81.d2.10.56.00.3d.58 1 2 7 0
+V v 1 4 59090db99ab3.03.81.d2.10.56.01.3d.58
+F f 1 "SDL.dvpt_1"
+F o 0 
+F o 0 
+F o 0 
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$Lab3/default.group/logic.views/NAND/part" 2 Eddm_part 58ffc39ab85e.03.81.d2.10.54.00.30.be 58ffc2af36a8.03.81.d2.10.54.00.30.be
+R cspuv 1 "$Lab3/default.group/logic.views/NAND/schematic" 6 mgc_schematic 59090da6045b.03.81.d2.10.56.00.4d.bb 58ffbf52eb28.03.81.d2.10.54.00.30.be
+R cspuv 2 "$Lab3/default.group/logic.views/NAND/NAND" 1 mgc_symbol 58ffc39aaa6c.03.81.d2.10.54.01.30.be 58ffc39aaa6c.03.81.d2.10.54.00.30.be
+R cspuv 3 "$MGC_IC_DEVICE_LIB/pmos_4pin/part" 1 Eddm_part 3900e620d87a.03.93.22.22.60.00.56.1b 3900e8d5cb40.03.93.22.22.60.00.56.1b
+R cspuv 4 "$MGC_IC_DEVICE_LIB/nmos_4pin/part" 1 Eddm_part 3900e6028d61.03.93.22.22.60.01.56.1b 3900e8d5523c.03.93.22.22.60.00.56.1b
+R cspuv 5 "$MGC_IC_DEVICE_LIB/nmos_4pin/nmos_4pin" 1 mgc_symbol 3900e6029743.03.93.22.22.60.00.56.1b 3900e8d55292.03.93.22.22.60.00.56.1b
+R cspuv 6 "$MGC_IC_DEVICE_LIB/pmos_4pin/pmos_4pin" 1 mgc_symbol 3900e620e84f.03.93.22.22.60.00.56.1b 3900e8d5cb98.03.93.22.22.60.00.56.1b

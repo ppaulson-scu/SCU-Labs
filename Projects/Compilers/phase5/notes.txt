@@ -1,0 +1,24 @@
+Today:
+Look at code from phase4
+modify Symbol
+	add _offset and init to 0
+modify Type
+	add size() (returns size of Type in bytes)
+generator.cpp
+	generateGlobals()
+	Function::generate()
+		calculate offsets
+			params: offset = 8 + i * 4
+			locals: offset = offset - size
+					x.offset = offset
+		Function prologue + epilogue
+	generate() functions for 
+		Block
+		Assign
+		Call
+		Identifier
+		Integer
+
+int foo(int x){
+	int y;
+}

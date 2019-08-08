@@ -1,0 +1,11 @@
+*drcRulesFile: /DCNFS/applications/mentor/2008.1/adk3_1/technology/ic/process/tsmc035.rules
+*drcRunDir: /DCNFS/users/student/ppaulson/ppaulson/elen153/ics/lab2.proj/Lab3.lib/default.group/layout.views/NAND/NAND.cal
+*drcLayoutPaths: NAND.calibre.db
+*drcLayoutPrimary: NAND
+*drcLayoutGetFromViewer: 1
+*drcResultsFile: NAND.drc.results
+*drcSummaryFile: NAND.drc.summary
+*drcIncrDRCSlaveHosts: {use {}} {hostName {}} {cpuCount {}} {a32a64 {}} {rsh {}} {maxMem {}} {workingDir {}} {layerDir {}} {mgcLibPath {}} {launchName {}}
+*cmnSlaveHosts: {use {}} {hostName {}} {cpuCount {}} {a32a64 {}} {rsh {}} {maxMem {}} {workingDir {}} {layerDir {}} {mgcLibPath {}} {launchName {}}
+*cmnFDILayoutLibrary: NAND
+*cmnFDIDEFLayoutPath: NAND.def

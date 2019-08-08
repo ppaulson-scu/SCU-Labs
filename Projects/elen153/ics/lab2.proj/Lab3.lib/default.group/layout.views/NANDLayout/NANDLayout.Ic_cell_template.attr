@@ -1,0 +1,9 @@
+A 5 u Ic_cell_template 5908f82b4b6d.03.81.d2.10.56.00.24.ce 2 4 2 0
+V v 1 1 590907de0356.03.81.d2.10.56.00.24.ce
+F f 1 "NANDLayout.iccel_1"
+V v 2 1 5909085f5310.03.81.d2.10.56.00.24.ce
+F f 2 "NANDLayout.iccel_2"
+O 2
+R csduv 1 "/DCNFS/applications/mentor/2008.1/adk3_1/technology/ic/process/tsmc035" 1 Ic_persist_process 42c0762f0019.03.93.22.46.d8.00.0e.37 43349f1b0e3c.03.93.22.46.d8.05.02.fa
+O 1
+R csduv 1 "/DCNFS/applications/mentor/2008.1/adk3_1/technology/ic/process/tsmc035" 1 Ic_persist_process 42c0762f0019.03.93.22.46.d8.00.0e.37 43349f1b0e3c.03.93.22.46.d8.05.02.fa

@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 58f685fe0617.03.81.d2.10.4e.00.3e.a8 4 2 1 0
+V v 2 1 58f688a7e9f7.03.81.d2.10.4e.00.3e.a8
+F o 0 ""
+V v 3 1 58f68907012d.03.81.d2.10.4e.00.3e.a8
+F o 0 ""
+V v 4 1 58f68a450995.03.81.d2.10.4e.00.3e.a8
+F o 0 ""
+O 4
+R cspuv 0 "$Lab2/default.group/logic.views/Inverter/schematic/sheet1" 3 mgc_sheet 58f68a45048b.03.81.d2.10.4e.00.3e.a8 58f685fe16cd.03.81.d2.10.4e.00.3e.a8
+O 3
+R cspuv 0 "$Lab2/default.group/logic.views/Inverter/schematic/sheet1" 2 mgc_sheet 58f68906f16e.03.81.d2.10.4e.00.3e.a8 58f685fe16cd.03.81.d2.10.4e.00.3e.a8
+O 2
+R cspuv 0 "$Lab2/default.group/logic.views/Inverter/schematic/sheet1" 1 mgc_sheet 58f685fe16ce.03.81.d2.10.4e.00.3e.a8 58f685fe16cd.03.81.d2.10.4e.00.3e.a8

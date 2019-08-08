@@ -1,0 +1,72 @@
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Ensure the page is zoomed out when first loaded -->
+	</head>
+	<body>
+		<center>
+			<img id="stream" src = "/stream/?action=stream"
+				onerror="alert('Video stream disabled.')"/>
+				<!-- Include the video stream in the page, alert user if it's not working -->
+		<br>
+		Distance:
+			<div id="reading" src = "/measure/">
+			<!-- Create a placeholder for the measurement later -->
+			</div>
+		<br>
+		<br>
+			<a id="downloader" href="http://10.16.230.81/stream/?action=snapshot"
+				download="">
+				<!-- Create a download button for saving snapshots -->
+			Save Snapshot
+			</a>
+		</center>
+	</body>
+<script>
+function showMeasurement(){
+	var date = new Date();
+	var reading = document.getElementById('reading');
+	var downloader = document.getElementById('downloader');
+	fetch('/measure/')
+		.then(response => response.json())
+		.then(function(response) {
+			var filename = date.toDateString()+date.toLocaleTimeString()
+			filename += "_cm_"+response.result+".jpeg"
+			filename = filename.replace(/\s/g,"_");
+			downloader.download=filename;
+			reading.innerHTML= response.result + 'cm';
+			reading.className = 'success';
+		})
+		.catch(function() {
+		reading.innerHTML="Error Fetching Measurement";
+		reading.className = 'error';
+		var filename = date.toDateString()+date.toLocaleTimeString()
+		filename += "_cm_unknown.jpeg"
+		filename = filename.replace(/\s/g,"_");
+		downloader.download=filename;
+	});
+}
+window.setInterval(function(){ showMeasurement(); }, 500);
+</script>
+
+<style>
+img#stream{
+
+	width: 90%;
+	max-width: max-content;
+}
+div#reading {
+
+	display: inline-block;
+}
+.success {
+
+	color: green;
+}
+.error {
+
+	color: red;
+}
+</style>
+</html>
+

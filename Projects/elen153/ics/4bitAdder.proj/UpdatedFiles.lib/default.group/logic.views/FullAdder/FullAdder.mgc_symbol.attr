@@ -1,0 +1,13 @@
+A 5 u mgc_symbol 591b707edceb.03.81.d2.10.56.00.52.64 4 2 1 0
+V v 2 1 591b70c8738d.03.81.d2.10.56.00.52.64
+F f 2 "FullAdder.smbl_2"
+V v 3 1 591b70dbcbeb.03.81.d2.10.56.00.52.64
+F f 3 "FullAdder.smbl_3"
+V v 4 1 591b71112735.03.81.d2.10.56.00.52.64
+F f 4 "FullAdder.smbl_4"
+O 4
+R csduv 0 "$UpdatedFiles/default.group/logic.views/FullAdder/part" 4 Eddm_part 591b70dbd0c6.03.81.d2.10.56.00.52.64 591b70799f0a.03.81.d2.10.56.00.52.64
+O 3
+R csduv 0 "$UpdatedFiles/default.group/logic.views/FullAdder/part" 4 Eddm_part 591b70dbd0c6.03.81.d2.10.56.00.52.64 591b70799f0a.03.81.d2.10.56.00.52.64
+O 2
+R csduv 0 "$UpdatedFiles/default.group/logic.views/FullAdder/part" 3 Eddm_part 591b70c87b08.03.81.d2.10.56.00.52.64 591b70799f0a.03.81.d2.10.56.00.52.64

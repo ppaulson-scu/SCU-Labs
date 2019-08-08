@@ -1,0 +1,1 @@
+10-2 Since MQTT uses a single TCP socket, every <keepalive time>, it sends a packet to request a signal that the connection is still open.

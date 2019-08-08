@@ -1,0 +1,3 @@
+7-2
+	Once a button is pressed, only that button will do anything until the device is reset, since pressing
+	the other one just makes that thread block forever.

@@ -1,0 +1,8 @@
+* Component: $UpdatedFiles/default.group/logic.views/153XOR  Viewpoint: eldonet
+.INCLUDE 153XOR_eldonet.spi
+
+
+.OPTION NOASCII
+.OPTION MODWL
+.OPTION ENGNOT
+.OPTION AEX

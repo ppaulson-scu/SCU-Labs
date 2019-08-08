@@ -1,0 +1,84 @@
+* LVS netlist generated with ICnet by 'ppaulson' on Tue May 30 2017 at 15:02:12
+
+*
+* Globals.
+*
+.global ground VDD
+
+*
+* Component pathname : $UpdatedFiles/default.group/logic.views/153OR
+*
+.subckt 153OR  OUT A B
+
+        M3 N$12 A ground ground N L=.4u W=1.2u M=1
+        M1 N$12 B ground ground N L=.4u W=1.2u M=1
+        M6 OUT N$12 VDD VDD P L=.4u W=2.4u M=1
+        M5 OUT N$12 ground ground N L=.4u W=1.2u M=1
+        M4 N$12 B N$8 VDD P L=.4u W=4.8u M=1
+        M2 N$8 A VDD VDD P L=.4u W=4.8u M=1
+.ends 153OR
+
+*
+* Component pathname : $UpdatedFiles/default.group/logic.views/inverter
+*
+.subckt inverter  OUT IN
+
+        M2 OUT IN VDD VDD P L=0.4u W=3.6u M=1
+        M1 OUT IN ground ground N L=0.4u W=1.2u M=1
+.ends inverter
+
+*
+* Component pathname : $UpdatedFiles/default.group/logic.views/153XOR
+*
+.subckt 153XOR  XOR A B
+
+        X_INVERTER1 XOR N$3 inverter
+        M2 B A N$3 ground N L=0.4u W=1.2u M=2
+        M4 A B N$3 ground N L=0.4u W=1.2u M=2
+        M3 N$3 B N$2 VDD P L=0.4u W=2.4u M=2
+        M1 N$2 A VDD VDD P L=0.4u W=2.4u M=2
+.ends 153XOR
+
+*
+* Component pathname : $UpdatedFiles/default.group/logic.views/153AND
+*
+.subckt 153AND  OUT A B
+
+        M1 OUT N$4 ground ground N L=.4u W=1.2u M=1
+        M3 N$6 A ground ground N L=.4u W=2.4u M=1
+        M5 N$4 B N$6 ground N L=.4u W=2.4u M=1
+        M4 N$4 B VDD VDD P L=.4u W=2.4u M=1
+        M6 N$4 A VDD VDD P L=.4u W=2.4u M=1
+        M2 OUT N$4 VDD VDD P L=.4u W=2.4u M=1
+.ends 153AND
+
+*
+* Component pathname : $UpdatedFiles/default.group/logic.views/HalfAdder
+*
+.subckt HalfAdder  c s x y
+
+        X_153XOR1 s y x 153XOR
+        X_153AND1 c x y 153AND
+.ends HalfAdder
+
+*
+* Component pathname : $UpdatedFiles/default.group/logic.views/FullAdder
+*
+.subckt FullAdder  c+1 s a b c
+
+        X_153OR1 c+1 N$205 N$203 153OR
+        X_HALFADDER2 N$205 s N$204 c HalfAdder
+        X_HALFADDER1 N$203 N$204 a b HalfAdder
+.ends FullAdder
+
+*
+* Component pathname : $UpdatedFiles/default.group/logic.views/4BitAdder
+*
+.subckt 4BitAdder  cout s0 s1 s2 s3 a0 a1 a2 a3 b0 b1 b2 b3 cin
+
+        X_FULLADDER4 cout s3 b3 a3 N$6 FullAdder
+        X_FULLADDER3 N$6 s2 b2 a2 N$4 FullAdder
+        X_FULLADDER2 N$4 s1 b1 a1 N$2 FullAdder
+        X_FULLADDER1 N$2 s0 a0 b0 cin FullAdder
+.ends 4BitAdder
+

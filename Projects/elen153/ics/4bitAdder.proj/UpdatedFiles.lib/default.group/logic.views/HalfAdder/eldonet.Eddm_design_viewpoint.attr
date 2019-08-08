@@ -1,0 +1,41 @@
+A 5 u Eddm_design_viewpoint 591b6e86b909.03.81.d2.10.56.00.4c.f6 3 2 20 0
+V v 1 4 591b6e86b909.03.81.d2.10.56.01.4c.f6
+F f 1 "eldonet.dvpt_1"
+F o 0 
+F o 0 
+F o 0 
+V v 2 4 591b6e8701d1.03.81.d2.10.56.00.4c.f6
+F f 2 "eldonet.dvpt_2"
+F o 0 
+F o 0 
+F o 0 
+V v 3 4 591b6e929e83.03.81.d2.10.56.00.4c.f6
+F f 3 "eldonet.dvpt_3"
+F o 0 
+F o 0 
+F o 0 
+O 3
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$UpdatedFiles/default.group/logic.views/HalfAdder/part" 1 Eddm_part 591b6e643279.03.81.d2.10.56.01.4c.f6 591b6e643279.03.81.d2.10.56.00.4c.f6
+R cspuv 1 "$UpdatedFiles/default.group/logic.views/HalfAdder/schematic" 2 mgc_schematic 591b6e644f73.03.81.d2.10.56.00.4c.f6 591b6c812068.03.81.d2.10.56.00.4c.f6
+R cspuv 2 "$UpdatedFiles/default.group/logic.views/HalfAdder/eldonet" 1 Eddm_ba_mgr 591b6e86be77.03.81.d2.10.56.00.4c.f6 591b6e86be76.03.81.d2.10.56.00.4c.f6
+R cspuv 3 "$UpdatedFiles/default.group/logic.views/153AND/part" 3 Eddm_part 591b6bf12920.03.81.d2.10.56.00.48.1a 591b6bee5123.03.81.d2.10.56.00.42.1f
+R cspuv 4 "$UpdatedFiles/default.group/logic.views/153XOR/part" 5 Eddm_part 591b6bdcb8d2.03.81.d2.10.56.00.45.8b 591b6bd6090a.03.81.d2.10.56.00.42.1f
+R cspuv 5 "$UpdatedFiles/default.group/logic.views/153XOR/schematic" 6 mgc_schematic 51917891a2ee.03.81.d2.10.90.00.1a.c9 591b6bd6092c.03.81.d2.10.56.00.42.1f
+R cspuv 7 "$UpdatedFiles/default.group/logic.views/153AND/schematic" 4 mgc_schematic 5190210a3127.03.81.d2.10.4c.00.33.f0 591b6bee5140.03.81.d2.10.56.00.42.1f
+R cspuv 13 "$MGC_IC_DEVICE_LIB/pmos_4pin/part" 1 Eddm_part 3900e620d87a.03.93.22.22.60.00.56.1b 3900e8d5cb40.03.93.22.22.60.00.56.1b
+R cspuv 14 "$MGC_IC_DEVICE_LIB/nmos_4pin/part" 1 Eddm_part 3900e6028d61.03.93.22.22.60.01.56.1b 3900e8d5523c.03.93.22.22.60.00.56.1b
+R cspuv 15 "$UpdatedFiles/default.group/logic.views/inverter/part" 4 Eddm_part 4d571b992997.03.81.d2.10.50.00.63.8d 518e762c4945.03.81.d2.10.9a.00.10.c1
+R cspuv 18 "$UpdatedFiles/default.group/logic.views/inverter/schematic" 11 mgc_schematic 4df13a3abede.03.81.d2.10.4f.00.52.b5 518e762c4979.03.81.d2.10.9a.00.10.c1
+O 2
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$UpdatedFiles/default.group/logic.views/HalfAdder/part" 1 Eddm_part 591b6e643279.03.81.d2.10.56.01.4c.f6 591b6e643279.03.81.d2.10.56.00.4c.f6
+R cspuv 1 "$UpdatedFiles/default.group/logic.views/HalfAdder/schematic" 1 mgc_schematic 591b6c812068.03.81.d2.10.56.01.4c.f6 591b6c812068.03.81.d2.10.56.00.4c.f6
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 2 "$UpdatedFiles/default.group/logic.views/HalfAdder/eldonet" 1 Eddm_ba_mgr 591b6e86be77.03.81.d2.10.56.00.4c.f6 591b6e86be76.03.81.d2.10.56.00.4c.f6
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$UpdatedFiles/default.group/logic.views/HalfAdder/part" 1 Eddm_part 591b6e643279.03.81.d2.10.56.01.4c.f6 591b6e643279.03.81.d2.10.56.00.4c.f6
+R cspuv 1 "$UpdatedFiles/default.group/logic.views/HalfAdder/schematic" 1 mgc_schematic 591b6c812068.03.81.d2.10.56.01.4c.f6 591b6c812068.03.81.d2.10.56.00.4c.f6
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 2 "$UpdatedFiles/default.group/logic.views/HalfAdder/eldonet" 1 Eddm_ba_mgr 591b6e86be77.03.81.d2.10.56.00.4c.f6 591b6e86be76.03.81.d2.10.56.00.4c.f6

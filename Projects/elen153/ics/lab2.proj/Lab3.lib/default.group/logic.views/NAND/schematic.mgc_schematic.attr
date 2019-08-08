@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 58ffbf52eb28.03.81.d2.10.54.00.30.be 7 2 1 0
+V v 5 1 58ffc32f9cbd.03.81.d2.10.54.00.30.be
+F o 0 ""
+V v 6 1 59090da6045b.03.81.d2.10.56.00.4d.bb
+F o 0 ""
+V v 7 1 59090e0e6378.03.81.d2.10.56.00.52.49
+F o 0 ""
+O 7
+R cspuv 0 "$Lab3/default.group/logic.views/NAND/schematic/sheet1" 6 mgc_sheet 59090e0e5eb1.03.81.d2.10.56.00.52.49 58ffbf53076b.03.81.d2.10.54.00.30.be
+O 6
+R cspuv 0 "$Lab3/default.group/logic.views/NAND/schematic/sheet1" 5 mgc_sheet 59090da5f3bf.03.81.d2.10.56.00.4d.bb 58ffbf53076b.03.81.d2.10.54.00.30.be
+O 5
+R cspuv 0 "$Lab3/default.group/logic.views/NAND/schematic/sheet1" 4 mgc_sheet 58ffc32f98fb.03.81.d2.10.54.00.30.be 58ffbf53076b.03.81.d2.10.54.00.30.be

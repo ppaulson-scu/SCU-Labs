@@ -1,0 +1,103 @@
+8-1
+Connect - Disconnect (2.4GHZ)
+Duration 1: 5.001 s
+Duration 2: 5.000 s
+Duration 3: 5.001 s
+Duration 4: 5.001 s
+Duration 5: 5.001 s
+Duration 6: 5.001 s
+Duration 7: 5.001 s
+Duration 8: 5.000 s
+Duration 9: 5.001 s
+Duration 10: 5.001 s
+Duration 11: 5.001 s
+Duration 12: 5.001 s
+Duration 13: 5.001 s
+Duration 14: 5.001 s
+Duration 15: 5.001 s
+Duration 16: 5.001 s
+Duration 17: 5.001 s
+Duration 18: 5.001 s
+Duration 19: 5.001 s
+Duration 20: 5.001 s
+Mean: 5.000s
+Stddev: 0.000s
+
+Connect - Disconnect (5GHZ)
+Duration 1: 5.000 s
+Duration 2: 5.000 s
+Duration 3: 5.000 s
+Duration 4: 5.000 s
+Duration 5: 5.000 s731C
+Duration 6: 5.000 s
+Duration 7: 5.000 s
+Duration 8: 5.000 s
+Duration 9: 18.363 s
+Duration 10: 5.000 s
+Duration 11: 5.000 s
+Duration 12: 17.362 s
+Duration 13: 36.719 s
+Duration 14: 5.000 s
+Duration 15: 18.363 s
+Duration 16: 16.465 s
+Duration 17: 5.000 s
+Duration 18: 5.000 s
+Duration 19: 5.000 s
+Duration 20: 18.363 s
+Mean: 9.781s
+Stddev: 8.487s
+
+
+8-2
+5GHZ, Noise / RSSI Samples
+~~~~~NO STREAMING~~~~~
+RSSI Sample 0: -32
+Noise Sample 1: -95
+RSSI Sample 1: -32
+Noise Sample 2: -95
+RSSI Sample 2: -32
+Noise Sample 3: -95
+RSSI Sample 3: -32
+Noise Sample 4: -95
+RSSI Sample 4: -32
+Noise Sample 5: -95
+RSSI Sample 5: -32
+Noise Sample 6: -95
+RSSI Sample 6: -32
+Noise Sample 7: -95
+RSSI Sample 7: -32
+Noise Sample 8: -95
+RSSI Sample 8: -32
+Noise Sample 9: -95
+RSSI Sample 9: -33
+Noise Mean: -95
+RSSI Mean: -32
+Noise Stddev: 0.
+RSSI Stddev: 0.
+
+~~~~VIDEO STREAMING~~~~
+Noise Sample 0: -95
+RSSI Sample 0: -42
+Noise Sample 1: -95
+RSSI Sample 1: -42
+Noise Sample 2: -95
+RSSI Sample 2: -40
+Noise Sample 3: -95
+RSSI Sample 3: -41
+Noise Sample 4: -95
+RSSI Sample 4: -41
+Noise Sample 5: -95
+RSSI Sample 5: -41
+Noise Sample 6: -95
+RSSI Sample 6: -41
+Noise Sample 7: -94
+RSSI Sample 7: -41
+Noise Sample 8: -92
+RSSI Sample 8: -41
+Noise Sample 9: -92
+RSSI Sample 9: -41
+Noise Mean: -94
+RSSI Mean: -41
+Noise Stddev: 1.
+RSSI Stddev: 0.
+

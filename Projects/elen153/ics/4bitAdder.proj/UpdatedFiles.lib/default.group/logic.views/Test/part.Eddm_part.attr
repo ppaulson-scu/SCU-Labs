@@ -1,0 +1,6 @@
+A 5 u Eddm_part 591b778db5fe.03.81.d2.10.56.00.59.3c 1 2 1 0
+V v 1 1 591b778db5fe.03.81.d2.10.56.01.59.3c
+F f 1 "part.part_1"
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$UpdatedFiles/default.group/logic.views/Test/schematic" 1 mgc_schematic 591b74bfe3c3.03.81.d2.10.56.00.59.3c 591b74bfe3c2.03.81.d2.10.56.00.59.3c

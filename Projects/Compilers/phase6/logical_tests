@@ -1,0 +1,93 @@
+/*void LessThan::test(const Label &label, bool ifTrue)
+{
+	_left->generate();
+	_right->generate();
+	
+	if (_left->_register == nullptr){
+		load(_left, getReg());
+	}
+	
+	cout << "\tcmpl\t" << _right << ", " << _left << endl;
+	cout << (ifTrue ? "\tjl\t" : "\tjge\t") << label << endl;
+	
+	assign(_left, nullptr);
+	assign(_right, nullptr);
+}
+
+void GreaterThan::test(const Label &label, bool ifTrue)
+{
+	_left->generate();
+	_right->generate();
+	
+	if (_left->_register == nullptr){
+		load(_left, getReg());
+	}
+	
+	cout << "\tcmpl\t" << _right << ", " << _left << endl;
+	cout << (ifTrue ? "\tjg\t" : "\tjle\t") << label << endl;
+	
+	assign(_left, nullptr);
+	assign(_right, nullptr);
+}
+
+void LessOrEqual::test(const Label &label, bool ifTrue)
+{
+	_left->generate();
+	_right->generate();
+	
+	if (_left->_register == nullptr){
+		load(_left, getReg());
+	}
+	
+	cout << "\tcmpl\t" << _right << ", " << _left << endl;
+	cout << (ifTrue ? "\tjle\t" : "\tjg\t") << label << endl;
+	
+	assign(_left, nullptr);
+	assign(_right, nullptr);
+}
+
+void GreaterOrEqual::test(const Label &label, bool ifTrue)
+{
+	_left->generate();
+	_right->generate();
+	
+	if (_left->_register == nullptr){
+		load(_left, getReg());
+	}
+	
+	cout << "\tcmpl\t" << _right << ", " << _left << endl;
+	cout << (ifTrue ? "\tjge\t" : "\tjl\t") << label << endl;
+	
+	assign(_left, nullptr);
+	assign(_right, nullptr);
+}
+
+void Equal::test(const Label &label, bool ifTrue){
+	_left->generate();
+	_right->generate();
+	
+	if (_left->_register == nullptr){
+		load(_left, getReg());
+	}
+	
+	cout << "\tcmpl\t" << _right << ", " << _left << endl;
+	cout << (ifTrue ? "\tje\t" : "\tne\t") << label << endl;
+	
+	assign(_left, nullptr);
+	assign(_right, nullptr);
+}
+
+void NotEqual::test(const Label &label, bool ifTrue){
+	_left->generate();
+	_right->generate();
+	
+	if (_left->_register == nullptr){
+		load(_left, getReg());
+	}
+	
+	cout << "\tcmpl\t" << _right << ", " << _left << endl;
+	cout << (ifTrue ? "\tjne\t" : "\te\t") << label << endl;
+	
+	assign(_left, nullptr);
+	assign(_right, nullptr);
+} */

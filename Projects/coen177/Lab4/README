@@ -1,0 +1,14 @@
+First-in First-out
+This algorithm keeps track of when a page entered the page table by treating the array like a circular array. This is by far the most simple - just keep track of where the pointer is and increment it, and don't worry about there properties of the page you replace.
+
+Least Recently Used
+This algorithm tracks each page in the page table's last access time. I did this by using a concurrent array whose element in the same index as the page in the page table was set to 0 each time the page was accessed. Each element of the concurrent array was incremented at the end of each page table access, so the greatest element in the concurrent array corresponded to the page that had been in the page table the longest without an access. 
+
+Least Frequently Used
+This algorithm tracks the number of times each page is accessed along with last access time, using the same method. It checks the concurrent array of number of times accessed for the least element, which has been accessed the least since being added to the array. It uses LRU as a tiebreaker.
+
+Hybrid
+This algorithm tracks the same things as LFU, but actively uses both. It calculates the access rate of each page - that is, while this page has been in memory, how often has it been accessed? This rate is calculated as (Number of times accessed)/(Number of total accesses since the page was added to the page table). This prevents a page from being accessed a few times and then sticking in memory forever - eventually it will have been there for so long that it has to be removed from the page table.
+
+Comparison
+LFU was generally the slowest. FIFO was slightly slower than LRU and my hybrid. I think that, for random page accesses like this, implementing an actual random algorithm would be interesting. See Graph.png for more information.

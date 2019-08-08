@@ -1,0 +1,10 @@
+A 5 u mgc_schematic 591b6c812068.03.81.d2.10.56.00.4c.f6 2 2 1 0
+V v 1 1 591b6c812068.03.81.d2.10.56.01.4c.f6
+F o 0 ""
+V v 2 1 591b6e644f73.03.81.d2.10.56.00.4c.f6
+F o 0 ""
+O 2
+R cspuv 0 "$UpdatedFiles/default.group/logic.views/HalfAdder/schematic/sheet1" 1 mgc_sheet 591b6c813224.03.81.d2.10.56.01.4c.f6 591b6c813224.03.81.d2.10.56.00.4c.f6
+O 1
+R cspuv 0 "$UpdatedFiles/default.group/logic.views/HalfAdder/schematic/sheet1" 1 mgc_sheet 591b6c813224.03.81.d2.10.56.01.4c.f6 591b6c813224.03.81.d2.10.56.00.4c.f6
+P "eddm__refer_state" "eddm__refer_floating"

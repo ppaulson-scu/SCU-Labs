@@ -1,0 +1,12 @@
+A 5 u Eddm_part 591b6e643279.03.81.d2.10.56.00.4c.f6 2 2 2 0
+V v 1 1 591b6e643279.03.81.d2.10.56.01.4c.f6
+F f 1 "part.part_1"
+V v 2 1 591b6e9baf36.03.81.d2.10.56.00.4c.f6
+F f 2 "part.part_2"
+O 2
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$UpdatedFiles/default.group/logic.views/HalfAdder/schematic" 1 mgc_schematic 591b6c812068.03.81.d2.10.56.01.4c.f6 591b6c812068.03.81.d2.10.56.00.4c.f6
+R csduv 1 "$UpdatedFiles/default.group/logic.views/HalfAdder/HalfAdder" 1 mgc_symbol 591b6e9ba49d.03.81.d2.10.56.01.4c.f6 591b6e9ba49d.03.81.d2.10.56.00.4c.f6
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$UpdatedFiles/default.group/logic.views/HalfAdder/schematic" 1 mgc_schematic 591b6c812068.03.81.d2.10.56.01.4c.f6 591b6c812068.03.81.d2.10.56.00.4c.f6

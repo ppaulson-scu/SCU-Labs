@@ -1,0 +1,19 @@
+A 5 u Eddm_part 591b6bd6090a.03.81.d2.10.56.00.42.1f 5 2 2 0
+V v 3 1 4fa9ab4b789d.03.81.d2.10.92.00.1c.9b
+F f 3 "part.part_3"
+V v 4 1 518d95c77350.03.81.d2.10.8f.00.69.88
+F f 4 "part.part_4"
+V v 5 1 591b6bdcb8d2.03.81.d2.10.56.00.45.8b
+F f 5 "part.part_5"
+O 5
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$UpdatedFiles/default.group/logic.views/153XOR/schematic" 1 mgc_schematic 4dec829e2e0c.03.81.d2.10.4f.01.1c.bc 591b6bd6092c.03.81.d2.10.56.00.42.1f
+R csduv 1 "$UpdatedFiles/default.group/logic.views/153XOR/153XOR" 1 mgc_symbol 4dec84e0585c.03.81.d2.10.4f.00.1c.bc 591b6bd609a3.03.81.d2.10.56.00.42.1f
+O 4
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$UpdatedFiles/default.group/logic.views/153XOR/schematic" 1 mgc_schematic 4dec829e2e0c.03.81.d2.10.4f.01.1c.bc 591b6bd6092c.03.81.d2.10.56.00.42.1f
+R csduv 1 "$UpdatedFiles/default.group/logic.views/153XOR/153XOR" 1 mgc_symbol 4dec84e0585c.03.81.d2.10.4f.00.1c.bc 591b6bd609a3.03.81.d2.10.56.00.42.1f
+O 3
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$UpdatedFiles/default.group/logic.views/153XOR/schematic" 1 mgc_schematic 4dec829e2e0c.03.81.d2.10.4f.01.1c.bc 591b6bd6092c.03.81.d2.10.56.00.42.1f
+R csduv 1 "$UpdatedFiles/default.group/logic.views/153XOR/153XOR" 1 mgc_symbol 4dec84e0585c.03.81.d2.10.4f.00.1c.bc 591b6bd609a3.03.81.d2.10.56.00.42.1f

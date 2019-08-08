@@ -1,0 +1,11 @@
+*lvsRulesFile: /DCNFS/applications/mentor/2008.1/adk3_1/technology/ic/process/tsmc035.calibre.rules
+*lvsRunDir: /DCNFS/users/student/ppaulson/ppaulson/elen153/ics/lab2.proj/Lab3.lib/default.group/layout.views/NAND/NAND.cal
+*lvsLayoutPaths: NAND.calibre.gds
+*lvsLayoutPrimary: NAND
+*lvsLayoutGetFromViewer: 1
+*lvsResultsFile: NAND.lvs.results
+*lvsSummaryFile: NAND.lvs.summary
+*cmnApplyTemplates: 0
+*lvsSourceGetFromViewer: 1
+*lvsSourcePath: NAND.calibre.src.net
+*lvsSourcePrimary: NAND

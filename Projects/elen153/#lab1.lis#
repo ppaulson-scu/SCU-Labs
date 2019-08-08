@@ -1,0 +1,9 @@
+lab1
+.model NCH PMOS (LEVEL=1)
+M1 2 1 0 NCH L=12u W=54u
+Vds 2 0 0
+Vgs 1 0 0 
+.DC Vds 0 -5 0.5 Vgs 0 -5 -1
+.options post=1
+.PLOT DC V(1,2) I(M1)
+.END <CR>

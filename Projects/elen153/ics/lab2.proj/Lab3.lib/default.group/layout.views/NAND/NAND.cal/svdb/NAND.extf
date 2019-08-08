@@ -1,0 +1,5 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtRunTimes 1493766044 1493766044
+lvs_ExtOutFile RUNDIR /DCNFS/users/student/ppaulson/elen153/ics/lab2.proj/Lab3.lib/default.group/layout.views/NAND/NAND.cal
+lvs_ExtOutFile LAYOUT_NETLIST /DCNFS/users/student/ppaulson/ppaulson/elen153/ics/lab2.proj/Lab3.lib/default.group/layout.views/NAND/NAND.cal/lay.net
+lvs_ExtOutFile EXTRACTION_REPORT lvs.report.ext

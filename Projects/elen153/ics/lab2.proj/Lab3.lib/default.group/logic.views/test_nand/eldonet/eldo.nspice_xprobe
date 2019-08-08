@@ -1,0 +1,71 @@
+# This file provides name mapping information for all objects
+# on the schematic design.  It provides a mapping for each
+# object between its name on the schematic and its name in the netlist.
+version 1.0
+
+Globals
+   VDD VDD
+   ground GROUND
+End Globals
+
+Cell IDEAL_CAPACITOR
+   Pin POS POS
+   Pin NEG NEG
+End Cell
+
+Cell PULSE_V_SOURCE
+   Pin POS POS
+   Pin NEG NEG
+End Cell
+
+Cell DC_V_SOURCE
+   Pin POS POS
+   Pin NEG NEG
+End Cell
+
+Cell NMOS_4PIN
+   Pin D D
+   Pin G G
+   Pin S S
+   Pin B B
+End Cell
+
+Cell PMOS_4PIN
+   Pin D D
+   Pin G G
+   Pin S S
+   Pin B B
+End Cell
+
+Cell NAND
+   Pin OUT OUT
+   Pin A A
+   Pin B B
+   Net N$213 N$213
+   Net B B
+   Net A A
+   Net OUT OUT
+   Global VDD VDD
+   Global ground GROUND
+   Inst M1 M1 NMOS_4PIN
+   Inst M3 M3 PMOS_4PIN
+   Inst M2 M2 NMOS_4PIN
+   Inst M4 M4 PMOS_4PIN
+End Cell
+
+Cell #top#
+   Pin OUT OUT
+   Pin A A
+   Pin B B
+   Net A A
+   Net OUT OUT
+   Net B B
+   Global VDD VDD
+   Global ground GROUND
+   Inst C1 C1 IDEAL_CAPACITOR
+   Inst V3 V3 PULSE_V_SOURCE
+   Inst V2 V2 PULSE_V_SOURCE
+   Inst V1 V1 DC_V_SOURCE
+   Inst NAND1 X_NAND1 NAND
+End Cell
+

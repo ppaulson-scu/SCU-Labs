@@ -1,0 +1,204 @@
+# This file provides name mapping information for all objects
+# on the schematic design.  It provides a mapping for each
+# object between its name on the schematic and its name in the netlist.
+version 1.0
+
+Globals
+   VDD VDD
+   ground GROUND
+End Globals
+
+Cell DC_V_SOURCE
+   Pin POS POS
+   Pin NEG NEG
+End Cell
+
+Cell PATTERN_V_SOURCE
+   Pin POS POS
+   Pin NEG NEG
+End Cell
+
+Cell NMOS_4PIN
+   Pin D D
+   Pin G G
+   Pin S S
+   Pin B B
+End Cell
+
+Cell PMOS_4PIN
+   Pin D D
+   Pin G G
+   Pin S S
+   Pin B B
+End Cell
+
+Cell 153OR
+   Pin OUT OUT
+   Pin A A
+   Pin B B
+   Net N$12 N$12
+   Net N$8 N$8
+   Net A A
+   Net B B
+   Net OUT OUT
+   Global ground GROUND
+   Global VDD VDD
+   Inst M3 M3 NMOS_4PIN
+   Inst M1 M1 NMOS_4PIN
+   Inst M6 M6 PMOS_4PIN
+   Inst M5 M5 NMOS_4PIN
+   Inst M4 M4 PMOS_4PIN
+   Inst M2 M2 PMOS_4PIN
+End Cell
+
+Cell INVERTER
+   Pin OUT OUT
+   Pin IN IN
+   Net OUT OUT
+   Net IN IN
+   Global VDD VDD
+   Global ground GROUND
+   Inst M2 M2 PMOS_4PIN
+   Inst M1 M1 NMOS_4PIN
+End Cell
+
+Cell 153XOR
+   Pin XOR XOR
+   Pin A A
+   Pin B B
+   Net N$3 N$3
+   Net N$2 N$2
+   Net XOR XOR
+   Net B B
+   Net A A
+   Global VDD VDD
+   Global ground GROUND
+   Inst INVERTER1 X_INVERTER1 INVERTER
+   Inst M2 M2 NMOS_4PIN
+   Inst M4 M4 NMOS_4PIN
+   Inst M3 M3 PMOS_4PIN
+   Inst M1 M1 PMOS_4PIN
+End Cell
+
+Cell 153AND
+   Pin OUT OUT
+   Pin A A
+   Pin B B
+   Net N$6 N$6
+   Net N$4 N$4
+   Net B B
+   Net A A
+   Net OUT OUT
+   Global ground GROUND
+   Global VDD VDD
+   Inst M1 M1 NMOS_4PIN
+   Inst M3 M3 NMOS_4PIN
+   Inst M5 M5 NMOS_4PIN
+   Inst M4 M4 PMOS_4PIN
+   Inst M6 M6 PMOS_4PIN
+   Inst M2 M2 PMOS_4PIN
+End Cell
+
+Cell HALFADDER
+   Pin c C
+   Pin s S
+   Pin x X
+   Pin y Y
+   Net s S
+   Net c C
+   Net y Y
+   Net x X
+   Inst 153XOR1 X_153XOR1 153XOR
+   Inst 153AND1 X_153AND1 153AND
+End Cell
+
+Cell FULLADDER
+   Pin c+1 C+1
+   Pin s S
+   Pin a A
+   Pin b B
+   Pin c C
+   Net N$205 N$205
+   Net N$204 N$204
+   Net N$203 N$203
+   Net s S
+   Net c C
+   Net b B
+   Net a A
+   Net c+1 C+1
+   Inst 153OR1 X_153OR1 153OR
+   Inst HALFADDER2 X_HALFADDER2 HALFADDER
+   Inst HALFADDER1 X_HALFADDER1 HALFADDER
+End Cell
+
+Cell 4BITADDER
+   Pin cout COUT
+   Pin s0 S0
+   Pin s1 S1
+   Pin s2 S2
+   Pin s3 S3
+   Pin a0 A0
+   Pin a1 A1
+   Pin a2 A2
+   Pin a3 A3
+   Pin b0 B0
+   Pin b1 B1
+   Pin b2 B2
+   Pin b3 B3
+   Pin cin CIN
+   Net N$6 N$6
+   Net N$4 N$4
+   Net N$2 N$2
+   Net a3 A3
+   Net s3 S3
+   Net cout COUT
+   Net a2 A2
+   Net a1 A1
+   Net s2 S2
+   Net s1 S1
+   Net s0 S0
+   Net cin CIN
+   Net b0 B0
+   Net b3 B3
+   Net b2 B2
+   Net b1 B1
+   Net a0 A0
+   Inst FULLADDER4 X_FULLADDER4 FULLADDER
+   Inst FULLADDER3 X_FULLADDER3 FULLADDER
+   Inst FULLADDER2 X_FULLADDER2 FULLADDER
+   Inst FULLADDER1 X_FULLADDER1 FULLADDER
+End Cell
+
+Cell #top#
+   Pin cout COUT
+   Pin s0 S0
+   Pin s1 S1
+   Pin s2 S2
+   Pin s3 S3
+   Net N$13 N$13
+   Net N$7 N$7
+   Net N$6 N$6
+   Net N$5 N$5
+   Net N$4 N$4
+   Net N$3 N$3
+   Net N$2 N$2
+   Net N$1 N$1
+   Net cout COUT
+   Net s0 S0
+   Net s1 S1
+   Net s2 S2
+   Net s3 S3
+   Global VDD VDD
+   Global ground GROUND
+   Inst V9 V9 DC_V_SOURCE
+   Inst V7 V7 PATTERN_V_SOURCE
+   Inst V8 V8 PATTERN_V_SOURCE
+   Inst V6 V6 PATTERN_V_SOURCE
+   Inst V5 V5 PATTERN_V_SOURCE
+   Inst V3 V3 PATTERN_V_SOURCE
+   Inst V4 V4 PATTERN_V_SOURCE
+   Inst V2 V2 PATTERN_V_SOURCE
+   Inst V1 V1 PATTERN_V_SOURCE
+   Inst 4BITADDER1 X_4BITADDER1 4BITADDER
+End Cell
+

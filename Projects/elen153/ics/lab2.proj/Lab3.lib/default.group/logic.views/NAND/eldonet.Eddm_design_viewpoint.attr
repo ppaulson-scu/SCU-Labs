@@ -1,0 +1,38 @@
+A 5 u Eddm_design_viewpoint 58ffc3449ea8.03.81.d2.10.54.00.30.be 5 2 26 0
+V v 3 4 58ffc37b27e5.03.81.d2.10.54.00.30.be
+F f 3 "eldonet.dvpt_3"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+V v 4 4 58ffcc822b9f.03.81.d2.10.54.00.51.1b
+F f 4 "eldonet.dvpt_4"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+V v 5 4 58ffcd57df3a.03.81.d2.10.54.00.51.1b
+F f 5 "eldonet.dvpt_5"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+O 5
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$Lab3/default.group/logic.views/NAND/part" 2 Eddm_part 58ffc39ab85e.03.81.d2.10.54.00.30.be 58ffc2af36a8.03.81.d2.10.54.00.30.be
+R cspuv 1 "$Lab3/default.group/logic.views/NAND/schematic" 5 mgc_schematic 58ffc32f9cbd.03.81.d2.10.54.00.30.be 58ffbf52eb28.03.81.d2.10.54.00.30.be
+R cspuv 2 "$Lab3/default.group/logic.views/NAND/eldonet" 1 Eddm_ba_mgr 58ffc344a5aa.03.81.d2.10.54.01.30.be 58ffc344a5aa.03.81.d2.10.54.00.30.be
+R cspuv 3 "$MGC_IC_DEVICE_LIB/pmos_4pin/part" 1 Eddm_part 3900e620d87a.03.93.22.22.60.00.56.1b 3900e8d5cb40.03.93.22.22.60.00.56.1b
+R cspuv 4 "$MGC_IC_DEVICE_LIB/nmos_4pin/part" 1 Eddm_part 3900e6028d61.03.93.22.22.60.01.56.1b 3900e8d5523c.03.93.22.22.60.00.56.1b
+O 4
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$Lab3/default.group/logic.views/NAND/part" 2 Eddm_part 58ffc39ab85e.03.81.d2.10.54.00.30.be 58ffc2af36a8.03.81.d2.10.54.00.30.be
+R cspuv 1 "$Lab3/default.group/logic.views/NAND/schematic" 5 mgc_schematic 58ffc32f9cbd.03.81.d2.10.54.00.30.be 58ffbf52eb28.03.81.d2.10.54.00.30.be
+R cspuv 2 "$Lab3/default.group/logic.views/NAND/eldonet" 1 Eddm_ba_mgr 58ffc344a5aa.03.81.d2.10.54.01.30.be 58ffc344a5aa.03.81.d2.10.54.00.30.be
+R cspuv 3 "$MGC_IC_DEVICE_LIB/pmos_4pin/part" 1 Eddm_part 3900e620d87a.03.93.22.22.60.00.56.1b 3900e8d5cb40.03.93.22.22.60.00.56.1b
+R cspuv 4 "$MGC_IC_DEVICE_LIB/nmos_4pin/part" 1 Eddm_part 3900e6028d61.03.93.22.22.60.01.56.1b 3900e8d5523c.03.93.22.22.60.00.56.1b
+R cspuv 15 "$Lab3/default.group/logic.views/NAND/NAND" 1 mgc_symbol 58ffc39aaa6c.03.81.d2.10.54.01.30.be 58ffc39aaa6c.03.81.d2.10.54.00.30.be
+O 3
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$Lab3/default.group/logic.views/NAND/part" 1 Eddm_part 58ffc2af36a8.03.81.d2.10.54.01.30.be 58ffc2af36a8.03.81.d2.10.54.00.30.be
+R cspuv 1 "$Lab3/default.group/logic.views/NAND/schematic" 5 mgc_schematic 58ffc32f9cbd.03.81.d2.10.54.00.30.be 58ffbf52eb28.03.81.d2.10.54.00.30.be
+R cspuv 2 "$Lab3/default.group/logic.views/NAND/eldonet" 1 Eddm_ba_mgr 58ffc344a5aa.03.81.d2.10.54.01.30.be 58ffc344a5aa.03.81.d2.10.54.00.30.be
+R cspuv 3 "$MGC_IC_DEVICE_LIB/pmos_4pin/part" 1 Eddm_part 3900e620d87a.03.93.22.22.60.00.56.1b 3900e8d5cb40.03.93.22.22.60.00.56.1b
+R cspuv 4 "$MGC_IC_DEVICE_LIB/nmos_4pin/part" 1 Eddm_part 3900e6028d61.03.93.22.22.60.01.56.1b 3900e8d5523c.03.93.22.22.60.00.56.1b

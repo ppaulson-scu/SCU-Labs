@@ -1,0 +1,33 @@
+Modify parser to compute and print attributes
+	pointers()
+	specifier()
+	declarator()
+	similar changes made at global level
+		global declarations/def and func parameters
+
+Modify parser to print when you open and close
+	eventually replaced with function calls
+
+Begin implementing Type class
+
+Before next lab:
+	Finish Type and Symbol classes
+	Replace prints with Type constructor calls and stream operator
+		cout << typespec... << "ARRAY" << endl
+		becomes
+		cout << Type(typespec, indirection, ...) << endl
+
+Week 2
+Scope class
+	find
+	lookup
+	enclosing/parent
+
+write checker.cpp
+	checks at global level
+		function decl and def
+		variable decl
+	checks in inner scopes
+		variable decl
+		function calls
+		variable usage

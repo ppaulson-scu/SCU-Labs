@@ -1,0 +1,24 @@
+This week'
+	1. Modify Type class
+		promote()
+		isPredicate()
+		isCompatableWith()
+		ect
+
+	2. Modify Parser
+		return Type objects
+		lvalue flag
+	
+	3. Modify Checker
+		checkLogicalOr() 	||
+		checkLogicalAnd()	&&
+		checkEquality()		==, !=
+		checkRelational()	>, <, >=, <=
+		checkRemainder()	%
+
+This week
+	1. Finish remaining checker funcs
+		checkPrefix			!, -, &, 
+		checkPostfix		[ ]
+		checkPrimaryExpr	tricky: checking function calls (and parameters) (number of params and types)
+		statements			while, if; tricky: return types, assignment statements 

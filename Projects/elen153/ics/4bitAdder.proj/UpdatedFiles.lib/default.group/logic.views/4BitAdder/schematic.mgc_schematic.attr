@@ -1,0 +1,10 @@
+A 5 u mgc_schematic 591b7122bd38.03.81.d2.10.56.00.59.3c 2 2 1 0
+V v 1 1 591b7122bd39.03.81.d2.10.56.00.59.3c
+F o 0 ""
+V v 2 1 591b77b80811.03.81.d2.10.56.00.59.3c
+F o 0 ""
+O 2
+R cspuv 0 "$UpdatedFiles/default.group/logic.views/4BitAdder/schematic/sheet1" 1 mgc_sheet 591b7122c9ed.03.81.d2.10.56.01.59.3c 591b7122c9ed.03.81.d2.10.56.00.59.3c
+O 1
+R cspuv 0 "$UpdatedFiles/default.group/logic.views/4BitAdder/schematic/sheet1" 1 mgc_sheet 591b7122c9ed.03.81.d2.10.56.01.59.3c 591b7122c9ed.03.81.d2.10.56.00.59.3c
+P "eddm__refer_state" "eddm__refer_floating"

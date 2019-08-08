@@ -1,0 +1,6 @@
+A 5 u Eddm_ba_mgr 58ffc8b0c37f.03.81.d2.10.54.00.30.be 1 2 1 0
+V v 1 1 58ffc8b0c37f.03.81.d2.10.54.01.30.be
+F f 1 "eldonet.ba_1"
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$Lab3/default.group/logic.views/test_nand/eldonet" 1 Eddm_design_viewpoint 58ffc8b0bb55.03.81.d2.10.54.00.30.be 58ffc8b0bb54.03.81.d2.10.54.00.30.be

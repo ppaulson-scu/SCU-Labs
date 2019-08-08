@@ -1,0 +1,13 @@
+* Component: $Lab2/default.group/logic.views/test_inverter  Viewpoint: eldonet
+.INCLUDE test_inverter_eldonet.spi
+.LIB $MGC_DESIGN_KIT/technology/ic/models/tsmc035.mod
+.PLOT DC  V(INPUT) 
+.PLOT DC  V(OUTPUT) 
+
+
+.OPTION NOASCII
+.OPTION MODWL
+.OPTION ENGNOT
+.OPTION AEX
+.OPTION LIMPROBE = 10000
+.DC VIN -0 3.3 .01

@@ -1,0 +1,9 @@
+A 5 u mgc_symbol 591b6e9ba49d.03.81.d2.10.56.00.4c.f6 2 2 1 0
+V v 1 1 591b6e9ba49d.03.81.d2.10.56.01.4c.f6
+F f 1 "HalfAdder.smbl_1"
+V v 2 1 591b6edd5f53.03.81.d2.10.56.00.4c.f6
+F f 2 "HalfAdder.smbl_2"
+O 2
+R csduv 0 "$UpdatedFiles/default.group/logic.views/HalfAdder/part" 2 Eddm_part 591b6e9baf36.03.81.d2.10.56.00.4c.f6 591b6e643279.03.81.d2.10.56.00.4c.f6
+O 1
+R csduv 0 "$UpdatedFiles/default.group/logic.views/HalfAdder/part" 2 Eddm_part 591b6e9baf36.03.81.d2.10.56.00.4c.f6 591b6e643279.03.81.d2.10.56.00.4c.f6

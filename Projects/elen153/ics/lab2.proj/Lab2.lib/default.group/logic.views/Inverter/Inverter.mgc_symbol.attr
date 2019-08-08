@@ -1,0 +1,9 @@
+A 5 u mgc_symbol 58f689aebf24.03.81.d2.10.4e.00.3e.a8 2 2 1 0
+V v 1 1 58f689aebf25.03.81.d2.10.4e.00.3e.a8
+F f 1 "Inverter.smbl_1"
+V v 2 1 58f689bdec46.03.81.d2.10.4e.00.3e.a8
+F f 2 "Inverter.smbl_2"
+O 2
+R csduv 0 "$Lab2/default.group/logic.views/Inverter/part" 2 Eddm_part 58f689aec841.03.81.d2.10.4e.00.3e.a8 58f688a7d26f.03.81.d2.10.4e.00.3e.a8
+O 1
+R csduv 0 "$Lab2/default.group/logic.views/Inverter/part" 2 Eddm_part 58f689aec841.03.81.d2.10.4e.00.3e.a8 58f688a7d26f.03.81.d2.10.4e.00.3e.a8

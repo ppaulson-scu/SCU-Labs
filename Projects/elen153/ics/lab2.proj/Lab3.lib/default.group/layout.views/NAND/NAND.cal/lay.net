@@ -1,0 +1,11 @@
+* SPICE NETLIST
+***************************************
+
+.SUBCKT NAND A GND OUT VDD B
+** N=6 EP=5 IP=0 FDC=4
+M0 6 A GND GND N L=4e-07 W=3.2e-06 AD=6.4e-12 AS=6.4e-12 $X=-14000 $Y=-6000 $D=1
+M1 OUT B 6 GND N L=4e-07 W=3.2e-06 AD=5.12e-12 AS=6.4e-12 $X=-2000 $Y=-6000 $D=1
+M2 OUT A VDD VDD P L=4e-07 W=3.2e-06 AD=6.4e-12 AS=6.4e-12 $X=-14000 $Y=23000 $D=0
+M3 VDD B OUT VDD P L=4e-07 W=3.2e-06 AD=5.12e-12 AS=6.4e-12 $X=-2000 $Y=23000 $D=0
+.ENDS
+***************************************

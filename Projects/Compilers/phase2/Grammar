@@ -1,0 +1,57 @@
+expression -> and_expr expression'
+
+expression' -> || and_expr expression'
+			| e
+
+and_expr -> eq_expr and_expr'
+
+and_expr' -> && eq_expr and_expr
+			| e
+
+eq_expr -> comp_expr eq_expr'
+
+eq_expr' -> == comp_expr eq_expr'
+			| != comp_expr eq_expr'
+			| e
+
+comp_expr -> add_expr comp_expr'
+
+comp_expr' -> < add_expr comp_expr'
+			| > add_expr comp_expr'
+			| <= add_expr comp_expr'
+			| >= add_expr comp_expr'
+			| e
+
+add_expr -> mult_expr add_expr'
+
+add_expr' -> + mult_expr add_expr'
+			| - mult_expr add_expr'
+			| e
+
+mult_expr -> unary_expr mult_expr'
+
+mult_expr' -> * unary-expr mult_expr
+			| / unary-expr mult_expr
+			| % unary-expr mult_expr
+			| e
+
+unary_expr -> !unary_expr
+			| -unary_expr
+			| *unary_expr
+			| &unary_expr
+			| SIZEOF (specifier pointers)
+			| (specifier pointers) unary_expr
+			| (expression) array_expr
+			| primary array_expr
+
+array_expr -> [ expression ] array_expr
+			| e
+
+prim_expr -> ID (expression-list)
+			| ID
+			| REAL
+			| INTEGER
+			| STRING
+
+expression_list -> expression
+			|	expression, expression_list

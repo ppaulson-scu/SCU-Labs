@@ -1,0 +1,11 @@
+Results
+Sequential
+1G		11.613s		11.673s		11.611s		11.618s		11.605s
+5G		59.974s		58.917s		55.569s		55.684s		55.163s
+10G		1m51.051s	1m50.797s	1m50.981s	1m50.565s	1m53.854s
+The sequential algorithm looks to scale almost linearly. This makes sense, because the vast, vast majority of the processing being done are file accesses, and since a 5G file requires exactly 5 times as many accesses as a 1G file, those accesses account for the vast majority of the program's running time.
+Random
+1G		0m2.464s	0m2.495s	0m2.444s	0m2.451s	0m2.448s
+5G		0m21.394s	0m12.218s	0m12.307s	0m12.644s	0m12.266s
+10G		0m33.995s	0m24.259s	0m24.437s	0m24.110s	0m25.937s
+The results of the random accesses were much slower than expected. Since I used rand() % 100, I would expect the random algorithm to be approximately fifty times faster, since the expected value of a random number 0-99 is 49.5. However, the random algorithm was just five times faster. The only other operations being done here are rand() and fseek, and one of those is taking up over 90% of processor time, so I'd conclude that (probably) random is just really slow compared to fgetc(). Also notable was the fact that while the ratios between 1, 5, and 10G were about the same as with the sequential algorithm, there was a lot more variance, as would be expected with a random algorithm.

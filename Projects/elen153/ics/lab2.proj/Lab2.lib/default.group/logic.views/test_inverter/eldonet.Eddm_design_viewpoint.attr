@@ -1,0 +1,63 @@
+A 5 u Eddm_design_viewpoint 58f68c713f21.03.81.d2.10.4e.00.46.31 11 2 44 0
+V v 9 4 58f68db6e6eb.03.81.d2.10.4e.00.46.31
+F f 9 "eldonet.dvpt_9"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+V v 10 4 58f68e3751ae.03.81.d2.10.4e.00.46.31
+F f 10 "eldonet.dvpt_10"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+V v 11 4 58f68e900d9a.03.81.d2.10.4e.00.46.31
+F f 11 "eldonet.dvpt_11"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+O 11
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$Lab2/default.group/logic.views/test_inverter/part" 1 Eddm_part 58f68c463dbd.03.81.d2.10.4e.01.46.31 58f68c463dbd.03.81.d2.10.4e.00.46.31
+R cspuv 1 "$Lab2/default.group/logic.views/test_inverter/schematic" 4 mgc_schematic 58f68e8f9944.03.81.d2.10.4e.00.46.31 58f68a6abd60.03.81.d2.10.4e.00.46.31
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 2 "$Lab2/default.group/logic.views/test_inverter/eldonet" 2 Eddm_ba_mgr 58f68db6ebd8.03.81.d2.10.4e.00.46.31 58f68c7146b4.03.81.d2.10.4e.00.46.31
+R cspuv 3 "$Lab2/default.group/logic.views/Inverter/part" 2 Eddm_part 58f689aec841.03.81.d2.10.4e.00.3e.a8 58f688a7d26f.03.81.d2.10.4e.00.3e.a8
+R cspuv 4 "$MGC_IC_SOURCES_LIB/dc_v_source/part" 1 Eddm_part 3890a89d50f5.03.86.56.31.70.00.34.2e 3890a962031f.03.86.56.31.70.01.34.72
+R cspuv 5 "$Lab2/default.group/logic.views/Inverter/schematic" 4 mgc_schematic 58f68a450995.03.81.d2.10.4e.00.3e.a8 58f685fe0617.03.81.d2.10.4e.00.3e.a8
+R cspuv 16 "$MGC_IC_DEVICE_LIB/pmos_4pin/part" 1 Eddm_part 3900e620d87a.03.93.22.22.60.00.56.1b 3900e8d5cb40.03.93.22.22.60.00.56.1b
+R cspuv 17 "$MGC_IC_DEVICE_LIB/nmos_4pin/part" 1 Eddm_part 3900e6028d61.03.93.22.22.60.01.56.1b 3900e8d5523c.03.93.22.22.60.00.56.1b
+R cspuv 32 "$Lab2/default.group/logic.views/Inverter/Inverter" 2 mgc_symbol 58f689bdec46.03.81.d2.10.4e.00.3e.a8 58f689aebf24.03.81.d2.10.4e.00.3e.a8
+O 10
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$Lab2/default.group/logic.views/test_inverter/part" 1 Eddm_part 58f68c463dbd.03.81.d2.10.4e.01.46.31 58f68c463dbd.03.81.d2.10.4e.00.46.31
+R cspuv 1 "$Lab2/default.group/logic.views/test_inverter/schematic" 3 mgc_schematic 58f68d79dea3.03.81.d2.10.4e.00.46.31 58f68a6abd60.03.81.d2.10.4e.00.46.31
+R cspuv 2 "$Lab2/default.group/logic.views/test_inverter/eldonet" 2 Eddm_ba_mgr 58f68db6ebd8.03.81.d2.10.4e.00.46.31 58f68c7146b4.03.81.d2.10.4e.00.46.31
+R cspuv 3 "$Lab2/default.group/logic.views/Inverter/part" 2 Eddm_part 58f689aec841.03.81.d2.10.4e.00.3e.a8 58f688a7d26f.03.81.d2.10.4e.00.3e.a8
+R cspuv 4 "$MGC_IC_SOURCES_LIB/dc_v_source/part" 1 Eddm_part 3890a89d50f5.03.86.56.31.70.00.34.2e 3890a962031f.03.86.56.31.70.01.34.72
+R cspuv 5 "$Lab2/default.group/logic.views/Inverter/schematic" 4 mgc_schematic 58f68a450995.03.81.d2.10.4e.00.3e.a8 58f685fe0617.03.81.d2.10.4e.00.3e.a8
+R cspuv 16 "$MGC_IC_DEVICE_LIB/pmos_4pin/part" 1 Eddm_part 3900e620d87a.03.93.22.22.60.00.56.1b 3900e8d5cb40.03.93.22.22.60.00.56.1b
+R cspuv 17 "$MGC_IC_DEVICE_LIB/nmos_4pin/part" 1 Eddm_part 3900e6028d61.03.93.22.22.60.01.56.1b 3900e8d5523c.03.93.22.22.60.00.56.1b
+R cspuv 32 "$Lab2/default.group/logic.views/Inverter/Inverter" 2 mgc_symbol 58f689bdec46.03.81.d2.10.4e.00.3e.a8 58f689aebf24.03.81.d2.10.4e.00.3e.a8
+O 9
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$Lab2/default.group/logic.views/test_inverter/part" 1 Eddm_part 58f68c463dbd.03.81.d2.10.4e.01.46.31 58f68c463dbd.03.81.d2.10.4e.00.46.31
+R cspuv 1 "$Lab2/default.group/logic.views/test_inverter/schematic" 3 mgc_schematic 58f68d79dea3.03.81.d2.10.4e.00.46.31 58f68a6abd60.03.81.d2.10.4e.00.46.31
+R cspuv 2 "$Lab2/default.group/logic.views/test_inverter/eldonet" 2 Eddm_ba_mgr 58f68db6ebd8.03.81.d2.10.4e.00.46.31 58f68c7146b4.03.81.d2.10.4e.00.46.31
+R cspuv 3 "$Lab2/default.group/logic.views/Inverter/part" 2 Eddm_part 58f689aec841.03.81.d2.10.4e.00.3e.a8 58f688a7d26f.03.81.d2.10.4e.00.3e.a8
+R cspuv 4 "$MGC_IC_SOURCES_LIB/dc_v_source/part" 1 Eddm_part 3890a89d50f5.03.86.56.31.70.00.34.2e 3890a962031f.03.86.56.31.70.01.34.72
+R cspuv 5 "$Lab2/default.group/logic.views/Inverter/schematic" 4 mgc_schematic 58f68a450995.03.81.d2.10.4e.00.3e.a8 58f685fe0617.03.81.d2.10.4e.00.3e.a8
+R cspuv 16 "$MGC_IC_DEVICE_LIB/pmos_4pin/part" 1 Eddm_part 3900e620d87a.03.93.22.22.60.00.56.1b 3900e8d5cb40.03.93.22.22.60.00.56.1b
+R cspuv 17 "$MGC_IC_DEVICE_LIB/nmos_4pin/part" 1 Eddm_part 3900e6028d61.03.93.22.22.60.01.56.1b 3900e8d5523c.03.93.22.22.60.00.56.1b
+R cspuv 32 "$Lab2/default.group/logic.views/Inverter/Inverter" 2 mgc_symbol 58f689bdec46.03.81.d2.10.4e.00.3e.a8 58f689aebf24.03.81.d2.10.4e.00.3e.a8
+R cspuv 33 "$MGC_IC_SOURCES_LIB/dc_v_source/dc_v_source" 1 mgc_symbol 3890a89d50ce.03.86.56.31.70.00.34.2e 3890a962031f.03.86.56.31.70.02.34.72
+R cspuv 34 "$MGC_IC_GENERIC_LIB/vdd/part" 1 Eddm_part 3db48b399318.03.93.22.29.75.00.28.94 3db48b399317.03.93.22.29.75.00.28.94
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 35 "$MGC_IC_GENERIC_LIB/portin/part" 1 Eddm_part 35773eaadc18.03.86.56.31.87.00.0e.9f 3890e8888efb.03.86.56.31.70.00.3a.eb
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 36 "$MGC_IC_GENERIC_LIB/portout/part" 1 Eddm_part 35785fdc394b.03.86.56.31.87.00.12.30 3890e8888efa.03.86.56.31.70.03.3a.eb
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 37 "$MGC_IC_GENERIC_LIB/ground/part" 1 Eddm_part 3db4867e4bc8.03.93.22.29.75.00.27.f6 3db4867e4bc7.03.93.22.29.75.00.27.f6
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 38 "$MGC_IC_GENERIC_LIB/vdd/vdd" 1 mgc_symbol 3db48b399bae.03.93.22.29.75.00.28.94 3db48b399bac.03.93.22.29.75.00.28.94
+R cspuv 39 "$MGC_IC_GENERIC_LIB/portin/portin" 1 mgc_symbol 35773d18855d.03.86.56.31.87.00.0e.9f 3890e8888efa.03.86.56.31.70.04.3a.eb
+R cspuv 40 "$MGC_IC_GENERIC_LIB/portout/portout" 1 mgc_symbol 357ed6243e32.03.86.56.31.87.00.28.94 3890e8888efa.03.86.56.31.70.02.3a.eb
+R cspuv 41 "$MGC_IC_GENERIC_LIB/ground/ground" 1 mgc_symbol 3db4867e5447.03.93.22.29.75.00.27.f6 3db4867e5446.03.93.22.29.75.00.27.f6

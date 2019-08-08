@@ -1,0 +1,22 @@
+1. Modify lexer.cpp
+	add token values for all keywords/operators in toekn.h
+	modify lexer to return these new values
+	modify main() to accept these new values
+
+Disambiguate expression grammar
+
+Write expression parser
+	at least up to binary operators
+Finish expression parser
+
+expression()
+	specifier()
+	pointers()
+statements()
+	statement()
+declarations()
+	declarations(0
+	declarator()
+global declarations
+	func_or_global()
+	remaining_decls()
